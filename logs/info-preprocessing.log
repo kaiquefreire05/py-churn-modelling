@@ -1,0 +1,125 @@
+2024-06-25 20:49:59,752 - INFO -    RowNumber  CustomerId   Surname  ...  IsActiveMember EstimatedSalary Exited
+0          1    15634602  Hargrave  ...               1       101348.88      1
+1          2    15647311      Hill  ...               1       112542.58      0
+2          3    15619304      Onio  ...               0       113931.57      1
+3          4    15701354      Boni  ...               0        93826.63      0
+4          5    15737888  Mitchell  ...               1        79084.10      0
+
+[5 rows x 14 columns]
+
+2024-06-25 20:49:59,761 - INFO -    CreditScore Geography  Gender  ...  IsActiveMember  EstimatedSalary  Exited
+0          619    France  Female  ...               1        101348.88       1
+1          608     Spain  Female  ...               1        112542.58       0
+2          502    France  Female  ...               0        113931.57       1
+3          699    France  Female  ...               0         93826.63       0
+4          850     Spain  Female  ...               1         79084.10       0
+
+[5 rows x 11 columns]
+
+2024-06-25 20:50:00,581 - INFO -    CreditScore  Age  Tenure  ...  Gender_Male  Geography_Germany  Geography_Spain
+0          619   42       2  ...        False              False            False
+1          608   41       1  ...        False              False             True
+2          502   42       8  ...        False              False            False
+3          699   39       1  ...        False              False            False
+4          850   43       2  ...        False              False             True
+
+[5 rows x 12 columns]
+
+2024-06-25 20:50:00,593 - INFO - \O Shape das variáveis de treino é: (7500, 11), (7500,)
+2024-06-25 20:50:00,593 - INFO - \O shape das variáveis de teste é: (2500, 11), (252024-06-25 20:50:38,001 - INFO - Epoch 1: loss=0.4386, accuracy=0.8133, val_loss=0.3618, val_accuracy=0.8568
+2024-06-25 20:50:39,035 - INFO - Epoch 2: loss=0.3804, accuracy=0.8435, val_loss=0.3625, val_accuracy=0.8604
+2024-06-25 20:50:40,060 - INFO - Epoch 3: loss=0.3693, accuracy=0.8488, val_loss=0.3470, val_accuracy=0.8640
+2024-06-25 20:50:41,093 - INFO - Epoch 4: loss=0.3611, accuracy=0.8520, val_loss=0.3434, val_accuracy=0.8668
+2024-06-25 20:50:42,129 - INFO - Epoch 5: loss=0.3558, accuracy=0.8535, val_loss=0.3495, val_accuracy=0.8620
+2024-06-25 20:50:43,199 - INFO - Epoch 6: loss=0.3544, accuracy=0.8591, val_loss=0.3408, val_accuracy=0.8620
+2024-06-25 20:50:44,292 - INFO - Epoch 7: loss=0.3476, accuracy=0.8577, val_loss=0.3351, val_accuracy=0.8668
+2024-06-25 20:50:45,328 - INFO - Epoch 8: loss=0.3448, accuracy=0.8579, val_loss=0.3377, val_accuracy=0.8652
+2024-06-25 20:50:46,375 - INFO - Epoch 9: loss=0.3452, accuracy=0.8568, val_loss=0.3452, val_accuracy=0.8612
+2024-06-25 20:50:47,400 - INFO - Epoch 10: loss=0.3410, accuracy=0.8593, val_loss=0.3432, val_accuracy=0.8652
+2024-06-25 20:50:48,422 - INFO - Epoch 11: loss=0.3402, accuracy=0.8628, val_loss=0.3359, val_accuracy=0.8636
+2024-06-25 20:50:49,466 - INFO - Epoch 12: loss=0.3393, accuracy=0.8616, val_loss=0.3389, val_accuracy=0.8632
+2024-06-25 20:50:50,605 - INFO - Epoch 13: loss=0.3408, accuracy=0.8613, val_loss=0.3424, val_accuracy=0.8636
+2024-06-25 20:50:51,648 - INFO - Epoch 14: loss=0.3340, accuracy=0.8640, val_loss=0.3377, val_accuracy=0.8644
+2024-06-25 20:50:52,718 - INFO - Epoch 15: loss=0.3344, accuracy=0.8635, val_loss=0.3408, val_accuracy=0.8620
+2024-06-25 20:50:53,748 - INFO - Epoch 16: loss=0.3309, accuracy=0.8641, val_loss=0.3441, val_accuracy=0.8644
+2024-06-25 20:50:54,913 - INFO - Epoch 17: loss=0.3283, accuracy=0.8647, val_loss=0.3371, val_accuracy=0.8636
+2024-06-25 20:50:56,002 - INFO - Epoch 18: loss=0.3285, accuracy=0.8639, val_loss=0.3483, val_accuracy=0.8636
+2024-06-25 20:50:57,054 - INFO - Epoch 19: loss=0.3262, accuracy=0.8631, val_loss=0.3392, val_accuracy=0.8672
+2024-06-25 20:50:58,063 - INFO - Epoch 20: loss=0.3245, accuracy=0.8669, val_loss=0.3456, val_accuracy=0.8580
+2024-06-25 20:50:59,143 - INFO - Epoch 21: loss=0.3235, accuracy=0.8672, val_loss=0.3401, val_accuracy=0.8628
+2024-06-25 20:51:00,184 - INFO - Epoch 22: loss=0.3238, accuracy=0.8693, val_loss=0.3504, val_accuracy=0.8600
+2024-06-25 20:51:01,285 - INFO - Epoch 23: loss=0.3213, accuracy=0.8672, val_loss=0.3417, val_accuracy=0.8612
+2024-06-25 20:51:02,351 - INFO - Epoch 24: loss=0.3192, accuracy=0.8688, val_loss=0.3445, val_accuracy=0.8612
+2024-06-25 20:51:03,513 - INFO - Epoch 25: loss=0.3145, accuracy=0.8695, val_loss=0.3482, val_accuracy=0.8632
+2024-06-25 20:51:05,028 - INFO - Epoch 26: loss=0.3182, accuracy=0.8700, val_loss=0.3417, val_accuracy=0.8608
+2024-06-25 20:51:06,440 - INFO - Epoch 27: loss=0.3150, accuracy=0.8687, val_loss=0.3393, val_accuracy=0.8652
+2024-06-25 20:51:07,813 - INFO - Epoch 28: loss=0.3120, accuracy=0.8715, val_loss=0.3480, val_accuracy=0.8616
+2024-06-25 20:51:09,364 - INFO - Epoch 29: loss=0.3112, accuracy=0.8719, val_loss=0.3481, val_accuracy=0.8652
+2024-06-25 20:51:10,769 - INFO - Epoch 30: loss=0.3124, accuracy=0.8707, val_loss=0.3503, val_accuracy=0.8596
+2024-06-25 20:51:12,026 - INFO - Epoch 31: loss=0.3068, accuracy=0.8708, val_loss=0.3490, val_accuracy=0.8632
+2024-06-25 20:51:13,139 - INFO - Epoch 32: loss=0.3015, accuracy=0.8751, val_loss=0.3603, val_accuracy=0.8556
+2024-06-25 20:51:14,219 - INFO - Epoch 33: loss=0.3090, accuracy=0.8716, val_loss=0.3593, val_accuracy=0.8568
+2024-06-25 20:51:15,330 - INFO - Epoch 34: loss=0.3027, accuracy=0.8755, val_loss=0.3620, val_accuracy=0.8564
+2024-06-25 20:51:16,352 - INFO - Epoch 35: loss=0.3037, accuracy=0.8744, val_loss=0.3532, val_accuracy=0.8572
+2024-06-25 20:51:17,364 - INFO - Epoch 36: loss=0.3013, accuracy=0.8739, val_loss=0.3602, val_accuracy=0.8552
+2024-06-25 20:51:18,385 - INFO - Epoch 37: loss=0.3004, accuracy=0.8747, val_loss=0.3588, val_accuracy=0.8584
+2024-06-25 20:51:19,421 - INFO - Epoch 38: loss=0.2987, accuracy=0.8755, val_loss=0.3591, val_accuracy=0.8572
+2024-06-25 20:51:20,481 - INFO - Epoch 39: loss=0.2979, accuracy=0.8775, val_loss=0.3623, val_accuracy=0.8592
+2024-06-25 20:51:21,521 - INFO - Epoch 40: loss=0.2944, accuracy=0.8712, val_loss=0.3610, val_accuracy=0.8560
+2024-06-25 20:51:22,725 - INFO - Epoch 41: loss=0.2933, accuracy=0.8760, val_loss=0.3752, val_accuracy=0.8540
+2024-06-25 20:51:23,942 - INFO - Epoch 42: loss=0.2972, accuracy=0.8761, val_loss=0.3594, val_accuracy=0.8588
+2024-06-25 20:51:24,981 - INFO - Epoch 43: loss=0.2975, accuracy=0.8749, val_loss=0.3695, val_accuracy=0.8592
+2024-06-25 20:51:26,083 - INFO - Epoch 44: loss=0.2925, accuracy=0.8763, val_loss=0.3689, val_accuracy=0.8588
+2024-06-25 20:51:27,152 - INFO - Epoch 45: loss=0.2925, accuracy=0.8785, val_loss=0.3667, val_accuracy=0.8588
+2024-06-25 20:51:28,263 - INFO - Epoch 46: loss=0.2900, accuracy=0.8787, val_loss=0.3656, val_accuracy=0.8592
+2024-06-25 20:51:29,343 - INFO - Epoch 47: loss=0.2885, accuracy=0.8776, val_loss=0.3740, val_accuracy=0.8572
+2024-06-25 20:51:30,648 - INFO - Epoch 48: loss=0.2882, accuracy=0.8789, val_loss=0.3707, val_accuracy=0.8552
+2024-06-25 20:51:31,870 - INFO - Epoch 49: loss=0.2886, accuracy=0.8777, val_loss=0.3771, val_accuracy=0.8528
+2024-06-25 20:51:32,896 - INFO - Epoch 50: loss=0.2856, accuracy=0.8785, val_loss=0.3746, val_accuracy=0.8572
+2024-06-25 20:51:33,992 - INFO - Epoch 51: loss=0.2802, accuracy=0.8816, val_loss=0.3741, val_accuracy=0.8584
+2024-06-25 20:51:35,079 - INFO - Epoch 52: loss=0.2853, accuracy=0.8803, val_loss=0.3688, val_accuracy=0.8584
+2024-06-25 20:51:36,137 - INFO - Epoch 53: loss=0.2794, accuracy=0.8812, val_loss=0.3734, val_accuracy=0.8632
+2024-06-25 20:51:37,159 - INFO - Epoch 54: loss=0.2792, accuracy=0.8812, val_loss=0.3766, val_accuracy=0.8612
+2024-06-25 20:51:38,205 - INFO - Epoch 55: loss=0.2838, accuracy=0.8800, val_loss=0.3791, val_accuracy=0.8604
+2024-06-25 20:51:39,217 - INFO - Epoch 56: loss=0.2825, accuracy=0.8828, val_loss=0.3721, val_accuracy=0.8524
+2024-06-25 20:51:40,263 - INFO - Epoch 57: loss=0.2815, accuracy=0.8792, val_loss=0.3746, val_accuracy=0.8564
+2024-06-25 20:51:41,408 - INFO - Epoch 58: loss=0.2784, accuracy=0.8824, val_loss=0.3593, val_accuracy=0.8596
+2024-06-25 20:51:42,478 - INFO - Epoch 59: loss=0.2823, accuracy=0.8817, val_loss=0.3732, val_accuracy=0.8528
+2024-06-25 20:51:43,552 - INFO - Epoch 60: loss=0.2829, accuracy=0.8815, val_loss=0.3759, val_accuracy=0.8540
+2024-06-25 20:51:44,754 - INFO - Epoch 61: loss=0.2719, accuracy=0.8837, val_loss=0.3795, val_accuracy=0.8616
+2024-06-25 20:51:45,781 - INFO - Epoch 62: loss=0.2772, accuracy=0.8827, val_loss=0.3770, val_accuracy=0.8556
+2024-06-25 20:51:46,824 - INFO - Epoch 63: loss=0.2724, accuracy=0.8827, val_loss=0.3830, val_accuracy=0.8524
+2024-06-25 20:51:47,869 - INFO - Epoch 64: loss=0.2749, accuracy=0.8807, val_loss=0.3694, val_accuracy=0.8588
+2024-06-25 20:51:48,918 - INFO - Epoch 65: loss=0.2767, accuracy=0.8824, val_loss=0.3686, val_accuracy=0.8584
+2024-06-25 20:51:49,955 - INFO - Epoch 66: loss=0.2722, accuracy=0.8800, val_loss=0.3837, val_accuracy=0.8616
+2024-06-25 20:51:51,059 - INFO - Epoch 67: loss=0.2598, accuracy=0.8912, val_loss=0.3867, val_accuracy=0.8584
+2024-06-25 20:51:52,133 - INFO - Epoch 68: loss=0.2577, accuracy=0.8895, val_loss=0.3862, val_accuracy=0.8592
+2024-06-25 20:51:53,203 - INFO - Epoch 69: loss=0.2579, accuracy=0.8887, val_loss=0.3847, val_accuracy=0.8568
+2024-06-25 20:51:54,229 - INFO - Epoch 70: loss=0.2509, accuracy=0.8911, val_loss=0.3920, val_accuracy=0.8584
+2024-06-25 20:51:55,276 - INFO - Epoch 71: loss=0.2494, accuracy=0.8931, val_loss=0.3989, val_accuracy=0.8568
+2024-06-25 20:51:56,326 - INFO - Epoch 72: loss=0.2475, accuracy=0.8909, val_loss=0.4057, val_accuracy=0.8592
+2024-06-25 20:51:57,369 - INFO - Epoch 73: loss=0.2442, accuracy=0.8943, val_loss=0.4144, val_accuracy=0.8596
+2024-06-25 20:51:58,424 - INFO - Epoch 74: loss=0.2484, accuracy=0.8869, val_loss=0.4040, val_accuracy=0.8588
+2024-06-25 20:51:59,461 - INFO - Epoch 75: loss=0.2395, accuracy=0.8947, val_loss=0.4149, val_accuracy=0.8524
+2024-06-25 20:52:00,682 - INFO - Epoch 76: loss=0.2410, accuracy=0.8949, val_loss=0.4231, val_accuracy=0.8548
+2024-06-25 20:52:01,742 - INFO - Epoch 77: loss=0.2363, accuracy=0.8980, val_loss=0.4274, val_accuracy=0.8524
+2024-06-25 20:52:02,794 - INFO - Epoch 78: loss=0.2417, accuracy=0.8953, val_loss=0.4191, val_accuracy=0.8492
+2024-06-25 20:52:03,873 - INFO - Epoch 79: loss=0.2370, accuracy=0.8959, val_loss=0.4229, val_accuracy=0.8532
+2024-06-25 20:52:05,025 - INFO - Epoch 80: loss=0.2403, accuracy=0.8947, val_loss=0.4170, val_accuracy=0.8524
+2024-06-25 20:52:06,046 - INFO - Epoch 81: loss=0.2364, accuracy=0.8953, val_loss=0.4205, val_accuracy=0.8516
+2024-06-25 20:52:07,194 - INFO - Epoch 82: loss=0.2418, accuracy=0.8947, val_loss=0.4225, val_accuracy=0.8544
+2024-06-25 20:52:08,357 - INFO - Epoch 83: loss=0.2360, accuracy=0.8976, val_loss=0.4179, val_accuracy=0.8520
+2024-06-25 20:52:09,391 - INFO - Epoch 84: loss=0.2297, accuracy=0.8971, val_loss=0.4226, val_accuracy=0.8528
+2024-06-25 20:52:10,450 - INFO - Epoch 85: loss=0.2338, accuracy=0.8972, val_loss=0.4223, val_accuracy=0.8528
+2024-06-25 20:52:11,499 - INFO - Epoch 86: loss=0.2393, accuracy=0.8965, val_loss=0.4216, val_accuracy=0.8492
+2024-06-25 20:52:12,563 - INFO - Epoch 87: loss=0.2360, accuracy=0.8985, val_loss=0.4243, val_accuracy=0.8500
+2024-06-25 20:52:13,608 - INFO - Epoch 88: loss=0.2319, accuracy=0.8972, val_loss=0.4261, val_accuracy=0.8508
+2024-06-25 20:52:14,671 - INFO - Epoch 89: loss=0.2325, accuracy=0.9000, val_loss=0.4283, val_accuracy=0.8504
+2024-06-25 20:52:15,815 - INFO - Epoch 90: loss=0.2348, accuracy=0.9000, val_loss=0.4277, val_accuracy=0.8516
+2024-06-25 20:52:16,860 - INFO - Epoch 91: loss=0.2356, accuracy=0.8991, val_loss=0.4272, val_accuracy=0.8516
+2024-06-25 20:52:17,990 - INFO - Epoch 92: loss=0.2307, accuracy=0.8985, val_loss=0.4278, val_accuracy=0.8520
+2024-06-25 20:52:19,054 - INFO - Epoch 93: loss=0.2320, accuracy=0.8991, val_loss=0.4280, val_accuracy=0.8524
+2024-06-25 20:52:20,233 - INFO - Epoch 94: loss=0.2332, accuracy=0.8993, val_loss=0.4277, val_accuracy=0.8512
+2024-06-25 20:57:24,248 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2024-06-25 20:58:09,526 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2024-06-25 20:58:54,010 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
